@@ -5,35 +5,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Handlekurv - SkoButikk</title>
-    <link rel="stylesheet" href="css/style.css"> <!-- Link til din CSS-fil -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body id="grid-container">
     <header class="header">
-        <div class="container">
+        <section class="container">
             <h1 class="logo">SkoButikk</h1>
             <nav>
                 <ul>
-                    <li><a href="#">Hjem</a></li>
+                    <li><a href="index.html">Hjem</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropbtn">Kategorier</a>
-                        <div class="dropdown-content">
+                        <ul class="dropdown-content">
                             <a href="#">Damesko</a>
                             <a href="#">Herresko</a>
                             <a href="#">Sportsko</a>
-                        </div>
+                        </ul>
                     </li>
-                    <li><a href="#">Kontakt oss</a></li>
-                    <li><a href="#">Handlekurv</a></li>
+                    <li><a href="checkout.html">Handlekurv</a></li>
                 </ul>
             </nav>
-        </div>
+        </section>
     </header>
 
     <main>
         <section>
             <h1>Handlekurv</h1>
-            <div class="articles">
+            <section class="articles">
                 <article class="product">
                     <img src="img/boot-250012_1280.jpg" alt="Sko 1">
                     <h2>Sko 1</h2>
@@ -57,20 +56,18 @@
                     <p>Antall: 1</p>
                     <a href="#">Fjern</a>
                 </article>
-            </div>
+            </section>
             <div class="total">
                 <p>Totalt: 1950,-</p>
             </div>
-            <div class="checkout-button">
+            <div class="button">
                 <a href="#">Gå til kassen</a>
             </div>
         </section>
     </main>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 SkoButikk. Alle rettigheter reservert.</p>
-        </div>
+    <footer class="footer">
+        <p>&copy; 2023 SkoButikk. Alle rettigheter reservert.</p>
     </footer>
 </body>
 
